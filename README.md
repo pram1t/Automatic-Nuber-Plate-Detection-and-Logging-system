@@ -14,9 +14,8 @@ The workflow is simple: an image of a car is uploaded → YOLOv8 detects the lic
 
 Upload an image of a vehicle and get the detected number plate along with the extracted text:
 
-![Demo Screenshot](assets/demo.jpg)
+![Demo Screenshot](assets/demo.jpeg)
 
-*(Make sure you save your screenshot inside a folder called `assets/` and name it `demo.png`)*
 
 ---
 
@@ -26,13 +25,11 @@ Below is an example of the system detecting and recognizing a license plate from
 
 ![Output Screenshot](assets/output.jpg)
 
-*(Save your output screenshot inside the `assets/` folder as `output.png`)*
 
 Here is the updated excel sheet:
 
 ![Output Screenshot](assets/excel_sheet.jpg)
 
-*(Save your output screenshot inside the `assets/` folder as `output.png`)*
 
 ---
 
@@ -41,7 +38,7 @@ Here is the updated excel sheet:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/anpr-system.git
+git clone https://github.com/pram1t/Automatic-Nuber-Plate-Detection-and-Logging-system.git
 cd anpr-system
 pip install -r requirements.txt
 ```
@@ -78,6 +75,14 @@ Then open the local URL shown in your terminal (usually `http://localhost:8501`)
 ├── requirements.txt    # Project dependencies
 └── README.md           # This file
 ```
+
+---
+
+## ⚠️ Disclaimer
+
+Only a few sample images are included in the `dataset/` folder for demonstration purposes.  
+For complete training, download the full dataset from Kaggle here:  
+👉 [Car Plate Detection Dataset](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection/data)
 
 ---
 
